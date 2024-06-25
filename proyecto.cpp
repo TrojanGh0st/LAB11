@@ -101,7 +101,7 @@ public:
     }
 
     void mostrarDetalles() const override {
-        cout << "\tLibro" << "\nNombre: "  << nombre << "\nPrecio: " << precio << "\nCodigo: " << codigo << "\nAutor: " << autor << endl;
+        cout << "\tLibro" << "\nNombre: " << nombre << "\nPrecio: " << precio << "\nCodigo: " << codigo << "\nAutor: " << autor << endl;
     }
 
     string obtenerTipo() const override {
@@ -129,7 +129,7 @@ public:
     }
 
     void mostrarDetalles() const override {
-        cout << "Electronico - Nombre: " << nombre << ", Precio: " << precio << ", Codigo: " << codigo << ", Marca: " << marca << endl;
+        cout << "\tElectronico" << "\nNombre: " << nombre << "\nPrecio: " << precio << "\nCodigo: " << codigo << "\nMarca: " << marca << endl;
     }
 
     string obtenerTipo() const override {
@@ -157,7 +157,7 @@ public:
     }
 
     void mostrarDetalles() const override {
-        cout << "Ropa - Nombre: " << nombre << ", Precio: " << precio << ", Codigo: " << codigo << ", Talla: " << talla << endl;
+        cout << "\tRopa" << "\nNombre: " << nombre << "\nPrecio: " << precio << "\nCodigo: " << codigo << "\nTalla: " << talla << endl;
     }
 
     string obtenerTipo() const override {
